@@ -35,11 +35,13 @@
 				<a href="https://en.wikipedia.org/wiki/Web_page" target="_blank" class= "link">What's a web page?</a>
 				<p>I am a junior web developer, a psychologist, a gamer, and also a software engineering student from <a href="https://en.wikipedia.org/wiki/Costa_Rica" target="_blank" class="link">Costa Rica</a>.
 			This is simple static web page. I'm doing this just to show you my skills as a front-end developer, but I don't really know what to write here. Well, this is an article about videogames, art and web pages. There is a lot to talk, you know. Please take a look!</p>
-				<span class="mySlides">
-    				<img id="imageDev" src="./images/dev1.jpg">
-    				<div class="prev" onclick= "showSlide(-1, 0)">&#10094</div>
-    				<div class="next" onclick= "showSlide(1, 0)">&#10095</div>
-				</span>
+				<div class="mySlides">
+					<img id="imageDev" src="./images/dev1.jpg">
+					<div id= "buttons">
+    					<span class="prev" onclick= "showSlide(-1, 0)">&#10094</span>
+						<span class="next" onclick= "showSlide(1, 0)">&#10095</span>
+					</div>
+				</div>
 					
 			</div>
 
@@ -66,10 +68,10 @@
 			</div>
 
 			<div id="data">
-				<span class="mySlides">
+				<div class="mySlides">
     				<img id="imageGame" src="./images/game1.jpg">
-				</span>
-				<span id="microSlide">
+				</div>
+				<div id="microSlide">
 					<div  onclick="showSlide(1, 1)">
 						<img class="microImage" src="./images/game1.jpg">
 					</div>
@@ -91,8 +93,8 @@
 					<div onclick="showSlide(7, 1)">
 						<img class="microImage" src="./images/game7.jpg">
 					</div>
-				</span>
-				<span id="descript">
+				</div>
+				<div id="descript">
 					<p>A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a 
 						two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. 
 						Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether 
@@ -107,7 +109,7 @@
 						 monitor or sometimes on virtual reality head-mounted display goggles. There are often game sound effects, music and voice
 						  actor lines which come from loudspeakers or headphones. Some games in the 2000s include haptic, vibration-creating 
 						  effects, force feedback peripherals and virtual reality headsets. <a class="link" href="https://en.wikipedia.org/wiki/Video_game">(wikipedia.)</a></p>
-				</span>
+					</div>
 			</div>
 		</main>
 	
