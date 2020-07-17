@@ -231,30 +231,6 @@ footer{
 		transition: background-color 0.4s ease;
 	}
 	
-	.next, .prev {
-		grid-column-start: 3;
-		position: absolute;
-		top: 250px;
-		padding: 10px 10px 10px 15px;
-		cursor: pointer;
-		  max-width: 50px;
-		  color: white;
-		  font-weight: bold;
-		  font-size: 18px;
-		  border-radius: 0 3px 3px 0;
-		background-color: #0492C2;
-	}
-	.next:hover, .prev:hover{
-		color: red;
-		background-color: skyblue;
-		border-left: 3px solid #03ac13;
-		opacity: 0.8;
-	}
-	
-	.next{
-		top: 310px;
-	}
-	
 	#imageDev{
 		width: 540px;
 		height: 309px;
