@@ -167,7 +167,7 @@ footer{
 }
 
 	/*Old style for desktop, this is a mess. i will fix it*/
-@media (min-width: 700px){
+@media (min-width: 1000px){
 	
 	.link{
 		text-align: center;
