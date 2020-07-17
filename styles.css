@@ -139,6 +139,8 @@ nav a:hover{
 
 
 #how{
+	padding-top: 25px;
+	padding-bottom: 25px;
 	margin-top: 260px;
 	min-width: 1024px;
 	display: grid;
@@ -155,6 +157,7 @@ nav a:hover{
 	grid-row-start: 1;
 	grid-row-end: 4;
 	background-color: #C288C1;
+	border-radius: 15%;
 }
 
 #question{
@@ -195,7 +198,7 @@ nav a:hover{
 	border-top: 1px solid snow;
 	grid-template-columns: 640px 1fr 2fr;
 	column-gap: 3px;
-	padding: 30px 30px;
+	padding: 30px 30px 5px 5px;
 }
 
 #data .mySlides{
@@ -240,10 +243,3 @@ footer{
 	border-top: 2px dotted slategrey;
 	border-radius: 3px;
 }
-
-@media (min-width: 576px) { 
-	body {
-		background-color: lightblue;
-		width: 200px;
-	  }
-  }
