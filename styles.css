@@ -240,10 +240,3 @@ footer{
 	border-top: 2px dotted slategrey;
 	border-radius: 3px;
 }
-
-@media (min-width: 576px) { 
-	body {
-		background-color: lightblue;
-		width: 200px;
-	  }
-  }
