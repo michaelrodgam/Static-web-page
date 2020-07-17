@@ -8,6 +8,7 @@ header{
 	text-shadow: 2px 2px 5px rgb(255, 255, 153);
 	background-color: #0066CC;
 	text-align: center;
+	min-width: 1024px;
 }
 
 nav{
@@ -16,6 +17,7 @@ nav{
 	box-shadow: 1px 5px 7px #6d84b4;
 	position: sticky;
 	top: 0;
+	min-width: 1024px;
 	z-index: 5;
 	
 }
@@ -138,6 +140,7 @@ nav a:hover{
 
 #how{
 	margin-top: 260px;
+	min-width: 1024px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 2fr;
 	grid-template-rows: 100px 100px 80px;
@@ -173,6 +176,7 @@ nav a:hover{
 /*extra content coming soon!*/
 .moreInfo{
 	background-color: #525151;
+	min-width: 1024px;
 }
 
 #moreInfoText{
@@ -185,6 +189,7 @@ nav a:hover{
 }
 
 #data{
+	min-width: 1024px;
 	display: grid;
 	background-color: steelblue;
 	border-top: 1px solid snow;
@@ -227,11 +232,18 @@ nav a:hover{
 }
 
 footer{
-	padding-top: 30px;
+	min-width: 1024px;
+	padding: 30px 30px 50px 50px;
 	text-shadow: 2px 2px 8px gray;
 	color: white;
 	background-color: #1c4966;
 	border-top: 2px dotted slategrey;
 	border-radius: 3px;
-	padding-left: 50px;
 }
+
+@media (min-width: 576px) { 
+	body {
+		background-color: lightblue;
+		width: 200px;
+	  }
+  }
