@@ -201,8 +201,7 @@ footer{
 }
 
 /*Old style for desktop, this is a mess. i will fix it*/
-@media (min-width: 700px){
-
+@media only screen and (min-width: 768px){
 	li{
 		margin: 5px 30px;
 	}
@@ -278,6 +277,5 @@ footer{
 		grid-column: 2/4;
 		grid-row-start: 3;
 	}
-
 
 }
